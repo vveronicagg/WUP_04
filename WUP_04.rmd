@@ -34,7 +34,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 I am going to use a box plot and favstats to analyze the information. 
 
 ```{r eval=FALSE}
-wup04data <- wup %>%
+wup04data <- wup04data %>%
 mutate(across(where(is.character), as.factor))
 ```
 
@@ -52,6 +52,7 @@ mutate(across(where(is.character), as.factor))
 ```{r}
 boxplot(WORDSUM~DEGREE,data=wup04data)
 ```
+
 
 ### Numerical Descriptive Results
 
