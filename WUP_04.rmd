@@ -79,10 +79,10 @@ The Pr is 0.000236 is the possibility of them being similar, but not possible be
 
 ```{r}
 par(mar = c(3, 8.7, 2, 2))
-plot(TukeyHSD(model1),las=2)
+plot(TukeyHSD(model1,conf.level = 0.95),las=2)
 ```
 
-
+There is a 95% possibility that they will be alike, but for Lt to high school to graduate would be different. 
 
 # Discussion and Conclusion
 
