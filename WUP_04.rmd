@@ -73,7 +73,7 @@ model1 <- aov(WORDSUM~DEGREE,data=wup04data)
 summary.aov(model1)
 ```
 
-
+The Pr is 0.000236 is the possibility of them being similar, but not possible because of the low percentage. 
 
 
 
