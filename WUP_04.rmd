@@ -31,6 +31,13 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+I am going to use a box plot and favstats to analyze the information. 
+
+```{r eval=FALSE}
+wup04data <- wup %>%
+mutate(across(where(is.character), as.factor))
+```
+
 # Results
 
 
@@ -65,7 +72,10 @@ summary.aov(model1)
 
 
 
-
+```{r}
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
 
 
 
