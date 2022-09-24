@@ -31,7 +31,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-I am going to use a box plot and favstats to analyze the information. 
+I am going to use a box plot and favstats to analyze information. Using wordsum the integer and degree the factor. we put in different variables like numerical, graphical, and inferential results to find the Pr. 
 
 ```{r eval=FALSE}
 wup04data <- wup04data %>%
@@ -89,6 +89,6 @@ There is a 95% possibility that they will be alike, but for Lt to high school to
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+Lt is not the same as junior high college and graduate school. Possibility similar to bachelors and and high school. Looking at the median LT high school is different than all of them. but junior and bachelor are similar. The Pr is 0.000236 and the possibility that all will be alike, but will not be because of how low the percentage is. There's a 95% chance that they will ever be the same. The only difference was LT high school and high school to graduate. 
 
 
