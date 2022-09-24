@@ -53,6 +53,8 @@ mutate(across(where(is.character), as.factor))
 boxplot(WORDSUM~DEGREE,data=wup04data)
 ```
 
+Lt high school is different from graduate school, and junior college. But could be similar to bachelors and highschool.  
+
 
 ### Numerical Descriptive Results
 
